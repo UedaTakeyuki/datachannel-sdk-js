@@ -1,1 +1,1 @@
-export { pb } from './pocketbase/pb.js'; // .js is necessary for raw js without transpile
+export { pb } from './pocketbase.js'; // .js is necessary for raw js without transpile
