@@ -1,4 +1,4 @@
-![Under Construction](https://shields.io/badge/status-under%20construction-yellow)
+![In Development](https://shields.io/badge/status-in%20development-blue)
 
 ## Install
 ### npm
