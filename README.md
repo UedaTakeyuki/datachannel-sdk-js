@@ -1,4 +1,6 @@
+<p align="right">
 ![In Development](https://shields.io/badge/status-in%20development-blue)
+</p>
 
 ## Install
 ### npm
