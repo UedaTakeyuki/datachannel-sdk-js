@@ -1,0 +1,16 @@
+{
+  "name": "@uedatakeyuki/datachannel-sdk-js",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.js",
+    "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "description": "javascript sdk for AtelierUEDA Datachannel",
+  "keywords": ["utils", "javascript", "webrtc", "datachannel"],
+  "author": "Dr. Takeyuki UEDA",
+  "license": "MIT"
+}
