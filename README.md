@@ -1,5 +1,5 @@
 <p align="right">
-![In Development](https://shields.io/badge/status-in%20development-blue)
+  <img src="https://shields.io/badge/status-in%20development-blue" alt="In Development">
 </p>
 
 ## Install
