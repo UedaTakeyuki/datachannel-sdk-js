@@ -3,7 +3,7 @@
 </p>
 
 # DataChannlel-SDK-js
-This is a javascript sdk for [AtelierUEDA Datachannel](https://datachannel.uedasoft.com) that aim to provids Web application with P2P data connection out of the box.
+This is a javascript sdk for [AtelierUEDA Datachannel](https://datachannel.uedasoft.com) that aims to provide Web application with P2P data connection out of the box.
 
 ## Install
 ### npm
