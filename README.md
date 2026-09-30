@@ -1,6 +1,8 @@
 <p align="right">
   <img src="https://shields.io/badge/status-in%20development-blue" alt="In Development">
 </p>
+# DataChannlel-SDK-js
+This is a javascript sdk for [AtelierUEDA Datachannel](https://datachannel.uedasoft.com)
 
 ## Install
 ### npm
