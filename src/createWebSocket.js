@@ -14,7 +14,7 @@ const createWebSocket = async (deviceID) => {
 
     ws.addEventListener('open', (event) => {
       // ハンドシェイク段階でAuthorizationヘッダーを追加
-      ws.send('Authorization: Bearer ' + "kerokero"); 
+      ws.send('Authorization: Bearer ' + pb.authStore.token); 
     });
 /*
 
