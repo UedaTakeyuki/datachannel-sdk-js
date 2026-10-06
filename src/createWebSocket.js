@@ -67,7 +67,7 @@ const createWebSocket = async (deviceID) => {
 const claimTicket = async () => {
   const resp = await pb.send("/claimticket/browser", {
     headers: { 
-      "Authorization": pb.authStore.token
+      "Authorization": `Bearer ${pb.authStore.token}`
     }
   }); // Sign-in required or fail.
   console.log("resp", resp)
