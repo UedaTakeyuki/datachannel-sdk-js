@@ -12,9 +12,12 @@ const createWebSocket = async (deviceID) => {
     console.log("WebSocket Connection Start")
     const ws = new WebSocket(url)
 
+    const credential = pb.authStore.token
+    console.log("credential", credential)
+
     ws.addEventListener('open', (event) => {
       // ハンドシェイク段階でAuthorizationヘッダーを追加
-      ws.send('Authorization: Bearer ' + pb.authStore.token); 
+      ws.send('Authorization: Bearer ' + credential); 
     });
 /*
 
