@@ -75,9 +75,18 @@ const claimTicket = async () => {
   return resp.ticket;
 }
 
+// PocketBase用のオプションオブジェクトを用意
+const options = {}
+
+// 💡 ② もし検索ワードがあれば、PocketBaseのフィルター構文（name等に部分一致）を作る
+// ※ここではデバイス名のフィールドが 'name' だと仮定しています。適宜変更してください。
+if (search) {
+  options.filter = `name ~ "${search}"` 
+}
+
 // 💡 page と perPage を受け取れるように変更
-const listDevice = async (page = 1, perPage = 3) => {
-  const resultList = await pb.collection('devices').getList(page, perPage)
+const listDevice = async (page = 1, perPage = 3, search = '') => {
+  const resultList = await pb.collection('devices').getList(page, perPage, options)
   console.log("resultList", resultList) 
   return resultList
 }
