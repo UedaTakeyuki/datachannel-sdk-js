@@ -1,7 +1,7 @@
 import { pb } from './pocketbase.js';
 //import pb from '@/libs/pocketbase'
 
-const serverURL = "wss://connect-cf.gde00107.workers.dev/browser"
+const serverURL = "wss://datachannelserver.uedasoft.com/ws-relay/browser"
 
 const createWebSocket = async (deviceID) => {
   return new Promise(async (resolve, reject) => {
